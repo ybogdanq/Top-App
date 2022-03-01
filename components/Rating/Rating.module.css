@@ -1,0 +1,20 @@
+/* --black: #3B434E;
+	--white: #FFF;
+	--primary: #7653FC;
+	--primary-hover: #6144D3;
+	--red: #FC836D;
+	--green: #1DC37E;
+	--green-light: #C8F8E4;
+	--bg-color: #E5E5E5;
+	--ghost-border: #EBEBEB;
+	--font-family: "Noto Sans Display", sans-serif; */
+
+.filled {
+	fill: var(--primary);
+}
+
+.star {
+	margin-right: 5px;
+
+	cursor: pointer;
+}
