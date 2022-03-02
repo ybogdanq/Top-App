@@ -25,12 +25,6 @@ const Home: NextPage = (): JSX.Element => {
         Some text
       </Button>
       <Button appearance="ghost">Some text</Button>
-      <Ptag size="s">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
-        mollitia fugit, quas laboriosam sequi atque temporibus corporis soluta
-        cupiditate placeat, dicta ipsa nobis corrupti ipsam debitis cumque,
-        perspiciatis ad blanditiis!
-      </Ptag>
       <Rating rating={rating} isEditable setRating={setRating} />
     </>
   );

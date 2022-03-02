@@ -1,3 +1,55 @@
-.tag {
-	display: block;
+.wrapper {
+	display: grid;
+
+	padding: 20px 25px;
+
+	color: #FFF;
+
+	background-color: var(--primary);
+
+	font-size: 16px;
+	line-height: 24px;
+	grid-template-columns: 1fr auto auto;
+	gap: 40px;
+}
+
+.wrapper a:hover {
+	text-decoration: underline;
+}
+
+.wrapper * {
+	overflow: hidden;
+
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.footer__polytics {
+	display: grid;
+
+	justify-content: center;
+	grid-template-columns: 1fr 1fr;
+}
+
+.polytics__terms {
+	align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+	.wrapper {
+		grid-template-columns: 1fr;
+
+		justify-items: center;
+		gap: 25px;
+
+		padding: 20px;
+	}
+
+	.footer__polytics {
+		display: grid;
+	}
+
+	.polytics__terms {
+		align-self: flex-end;
+	}
 }
