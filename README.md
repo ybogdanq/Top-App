@@ -1,6 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Top-App [Next.js]
 
-## Getting Started
+This project was created to train up my Next.js/React skills. Udemy Next.js course application.
+
+## Set up [Development mode]
 
 First, run the development server:
 
